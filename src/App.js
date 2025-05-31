@@ -1,12 +1,10 @@
-import Header from "./Header";
-import PdfUploadComponent from "./PdfUploadComponent";
-import "./Style.css";
+import UploadContainer from "./components/UploadContainer";
+import "./styles/app.scss";
 
 function App() {
   return (
-    <div className="App">
-      <Header></Header>
-      <PdfUploadComponent></PdfUploadComponent>
+    <div className="app">
+      <UploadContainer />
     </div>
   );
 }
