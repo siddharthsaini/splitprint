@@ -44,11 +44,11 @@ function PrintButtons({ oddDoc, evenDoc, fileName }) {
   return (
     <div>
       {fileName && (
-        <div className=".c-print-buttons__file-name">
+        <div className="c-print-buttons__file-name">
           <p>{fileName}</p>
         </div>
       )}
-      <div>{renderPrintButtons}</div>
+      <div>{renderPrintButtons()}</div>
     </div>
   );
 }
