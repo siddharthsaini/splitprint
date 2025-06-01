@@ -1,0 +1,21 @@
+.c-upload-box {
+    border: 2px dashed #dc3545;
+    border-radius: 8px;
+    padding: 50px 20px;
+    text-align: center;
+    color: #333;
+    position: relative;
+    margin-top: 2vh;
+
+    @media screen and (max-width: 500px) {
+        padding: 20px 10px;
+    }
+
+    @media screen and (max-height: 650px) {
+        padding: 10px 10px;
+    }
+
+    .m-drag-over {
+        background-color: #d9d9d9;
+    }
+}
