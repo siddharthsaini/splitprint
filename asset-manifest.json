@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/splitprint/static/css/main.e3fdc1dc.css",
+    "main.js": "/splitprint/static/js/main.5ff10eb5.js",
+    "static/media/upload_logo.png": "/splitprint/static/media/upload_logo.965c26e531ae48091e63.png",
+    "index.html": "/splitprint/index.html",
+    "main.e3fdc1dc.css.map": "/splitprint/static/css/main.e3fdc1dc.css.map",
+    "main.5ff10eb5.js.map": "/splitprint/static/js/main.5ff10eb5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3fdc1dc.css",
+    "static/js/main.5ff10eb5.js"
+  ]
+}
